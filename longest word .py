@@ -1,0 +1,5 @@
+words=input("enter the words seperated by spaces")
+words=words.split(" ")
+print(words)
+longest=max([len(word) for word in words])
+print(longest)
